@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Load marks from JSON file
-json_path = os.path.join(os.path.dirname(__file__), "marks.json")
+json_path = os.path.join(os.path.dirname(__file__), "q-vercel-python.json")
 with open(json_path, "r") as file:
     marks_data = json.load(file)
 
